@@ -1,0 +1,31 @@
+CHAPTER 15: Cybersecurity & Modern Frontiers
+============================================
+
+Protecting systems and exploring the future of computing.
+
+1. Encryption and Hashing (RSA, AES)
+------------------------------------
+- Encryption: Transforming text into unintelligible ciphertext.
+  - Symmetric (AES): Same key for encryption and decryption. Fast.
+  - Asymmetric (RSA): Public key encrypts, Private key decrypts. Secure key exchange.
+- Hashing: One-way transformation of data into a fixed-size string (digest). Used for password storage and data integrity. (e.g., SHA-256).
+
+2. Public Key Infrastructure (PKI)
+----------------------------------
+A set of roles, policies, and hardware/software needed to manage digital certificates and public-key encryption.
+- Certificate Authority (CA): A trusted entity that issues digital certificates verifying the ownership of a public key (basis of HTTPS/TLS).
+
+3. Introduction to Machine Learning
+-----------------------------------
+- Machine Learning (ML): Algorithms that improve automatically through experience (data).
+  - Supervised Learning: Training on labeled data (Classification, Regression).
+  - Unsupervised Learning: Finding patterns in unlabeled data (Clustering).
+  - Neural Networks: Inspired by biological brains, capable of learning complex non-linear patterns (Deep Learning).
+
+4. Ethics in Artificial Intelligence
+------------------------------------
+As AI becomes more powerful, ethical considerations are paramount.
+- Bias: AI systems can perpetuate or amplify biases present in training data.
+- Transparency: "Black box" models make it hard to explain decisions.
+- Accountability: Who is responsible when an AI makes a mistake (e.g., self-driving cars)?
+- Privacy: usage of personal data for training models.
