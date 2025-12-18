@@ -1,0 +1,31 @@
+CHAPTER 12: Database Systems
+============================
+
+Databases are organized collections of data.
+
+1. Relational Models and SQL
+----------------------------
+- RDBMS: Data is stored in tables (relations) with rows and columns. Relationships are defined by Primary Keys and Foreign Keys.
+- SQL (Structured Query Language): The standard language for managing RDBMS.
+  - DDL (Data Definition): CREATE, ALTER, DROP.
+  - DML (Data Manipulation): SELECT, INSERT, UPDATE, DELETE.
+
+2. Normalization and ACID Properties
+------------------------------------
+- Normalization: Organizing data to reduce redundancy and improve integrity (1NF, 2NF, 3NF).
+- ACID: A set of properties for reliable transactions:
+  - Atomicity: All or nothing.
+  - Consistency: Valid state before and after.
+  - Isolation: Concurrent transactions don't interfere.
+  - Durability: Committed data is saved permanently.
+
+3. NoSQL and Distributed Databases
+----------------------------------
+- NoSQL: Designed for unstructured data, horizontal scaling, and rapid development.
+  - Types: Document (MongoDB), Key-Value (Redis), Column-family (Cassandra), Graph (Neo4j).
+- CAP Theorem: A distributed system can only provide two of the three: Consistency, Availability, Partition Tolerance.
+
+4. Indexing and Query Optimization
+----------------------------------
+- Indexing: A data structure (often B-Trees) that improves the speed of data retrieval operations at the cost of additional writes and storage space.
+- Query Optimization: The database engine analyzes a query to determine the most efficient execution plan (e.g., using an index vs. a full table scan).

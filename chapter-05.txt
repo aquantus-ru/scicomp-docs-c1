@@ -1,0 +1,32 @@
+CHAPTER 5: Abstract Data Types
+==============================
+
+Abstract Data Types (ADTs) are defined by their behavior (operations) rather than their implementation.
+
+1. Stacks and LIFO Operations
+-----------------------------
+- Concept: Last-In, First-Out (LIFO). The element added most recently is the first to be removed.
+- Operations: Push (add), Pop (remove), Peek (top element).
+- Applications: Function call stacks (managing recursion), undo mechanisms in editors, syntax parsing.
+
+2. Queues and FIFO Scheduling
+-----------------------------
+- Concept: First-In, First-Out (FIFO). The element added earliest is the first to be removed.
+- Operations: Enqueue (add), Dequeue (remove).
+- Applications: Task scheduling (printer queues), Breadth-First Search, buffering data streams.
+
+3. Hash Tables and Collision Resolution
+---------------------------------------
+A Hash Table maps keys to values for efficient lookup (O(1) average).
+- Hashing Function: Converts a key into an index in an array.
+- Collisions: Occur when two keys hash to the same index.
+- Resolution Strategies:
+  - Chaining: Each bucket in the table points to a linked list of entries.
+  - Open Addressing: If a collision occurs, probe for the next empty slot (Linear Probing, Quadratic Probing).
+- Load Factor: The ratio of entries to bucket capacity. Resizing is required when the load factor gets too high to maintain performance.
+
+4. Sets and Maps
+----------------
+- Set: A collection of unique elements. Order is usually not guaranteed. Operations include Union, Intersection, Difference.
+- Map (Dictionary/Associative Array): A collection of key-value pairs where keys are unique.
+- Implementation: Typically built on top of Hash Tables (for O(1) access) or Balanced Binary Search Trees (for O(log n) access and sorted order).
