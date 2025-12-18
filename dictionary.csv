@@ -1,0 +1,87 @@
+Term,Definition
+"ACID (Atomicity, Consistency, Isolation, Durability)",A set of properties that guarantee database transactions are processed reliably.
+ADT (Abstract Data Type),"A data type defined by its behavior (semantics) from the point of view of a user, specifically in terms of possible values, possible operations, and the behavior of these operations."
+AES (Advanced Encryption Standard),A symmetric encryption algorithm widely used for securing data.
+API (Application Programming Interface),"A set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service."
+Array,"A data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key."
+Assembly Language,A low-level programming language with a very strong correspondence between the instructions in the language and the architecture's machine code instructions.
+Asymptotic Notation,"Mathematical notation used to describe the limiting behavior of a function when the argument tends towards a particular value or infinity (e.g., Big O)."
+AVL Tree,A self-balancing binary search tree where the difference between heights of left and right subtrees cannot be more than one for all nodes.
+Bandwidth,The maximum rate of data transfer across a given path.
+BFS (Breadth-First Search),An algorithm for traversing or searching tree or graph data structures. It starts at the tree root and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.
+Big O Notation,A mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
+Binary,"A base-2 numeral system used by digital computers, consisting of only two digits: 0 and 1."
+Binary Search,A search algorithm that finds the position of a target value within a sorted array.
+Binary Search Tree (BST),A rooted binary tree data structure whose internal nodes each store a key greater than all the keys in the node's left subtree and less than those in its right subtree.
+Bit,The most basic unit of information in computing and digital communications.
+Boolean Algebra,The branch of algebra in which the values of the variables are the truth values true and false.
+Bubble Sort,"A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order."
+Cache,A hardware or software component that stores data so that future requests for that data can be served faster.
+CAP Theorem,"States that it is impossible for a distributed data store to simultaneously provide more than two out of the following three guarantees: Consistency, Availability, and Partition tolerance."
+CISC (Complex Instruction Set Computer),A computer architecture in which single instructions can execute several low-level operations.
+Client-Server,"A distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters, called clients."
+Compiler,A computer program that translates computer code written in one programming language (the source language) into another language (the target language).
+Concurrency,"The ability of different parts or units of a program, algorithm, or problem to be executed out-of-order or in partial order, without affecting the final outcome."
+CPU (Central Processing Unit),The electronic circuitry that executes instructions comprising a computer program.
+Deadlock,"A state in which each member of a group is waiting for another member, including itself, to take action, such as sending a message or more commonly releasing a lock."
+Declarative Programming,A programming paradigm that expresses the logic of a computation without describing its control flow.
+DFS (Depth-First Search),An algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node and explores as far as possible along each branch before backtracking.
+Dictionary (Map),"An abstract data type composed of a collection of (key, value) pairs, such that each possible key appears at most once in the collection."
+Dijkstra's Algorithm,An algorithm for finding the shortest paths between nodes in a graph.
+Distributed System,"A system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another."
+DNS (Domain Name System),"A hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network."
+Encapsulation,"The bundling of data with the methods that operate on that data, or the restricting of direct access to some of an object's components."
+Encryption,"The process of encoding information. This process converts the original representation of the information, known as plaintext, into an alternative form known as ciphertext."
+Entropy (Information Theory),"A measure of the average level of ""information"", ""surprise"", or ""uncertainty"" inherent in the variable's possible outcomes."
+"FIFO (First-In, First-Out)","A method for organizing and manipulating a data buffer, where the oldest (first) entry, or 'head' of the queue, is processed first."
+Floating-point,A formulaic representation of real numbers as an approximation to support a trade-off between range and precision.
+Functional Programming,A programming paradigm where programs are constructed by applying and composing functions.
+Git,A distributed version-control system for tracking changes in source code during software development.
+Graph,"A structure amounting to a set of objects in which some pairs of the objects are in some sense ""related""."
+Halting Problem,"The problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running, or continue to run forever."
+Hash Table,"A data structure that implements an associative array abstract data type, a structure that can map keys to values."
+Heap,A specialized tree-based data structure which is essentially an almost complete tree that satisfies the heap property.
+Hexadecimal,A positional system that represents numbers using a radix (base) of 16.
+HTTP (Hypertext Transfer Protocol),"An application layer protocol for distributed, collaborative, hypermedia information systems."
+Immutable,An object whose state cannot be modified after it is created.
+Inheritance,A mechanism where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods.
+Instruction Set,The set of instructions that the microprocessor can support.
+IP (Internet Protocol),The principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries.
+Kernel,"The core of a computer's operating system, with complete control over everything in the system."
+Latency,The time interval between the stimulation and response.
+"LIFO (Last-In, First-Out)",A method for processing data structures where the last element added is the first to be removed.
+Linked List,"A linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next."
+Machine Learning,A field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data.
+Merge Sort,"an efficient, general-purpose, and comparison-based sorting algorithm."
+Mutex (Mutual Exclusion),"A program object that is created so that multiple program threads can take turns sharing the same resource, such as access to a file."
+Normalization,The process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce data redundancy and improve data integrity.
+NoSQL,A mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.
+NP (Nondeterministic Polynomial time),"The set of decision problems for which the problem instances, where the answer is ""yes"", have proofs verifiable in polynomial time."
+OOP (Object-Oriented Programming),"A programming paradigm based on the concept of ""objects"", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods)."
+OSI Model,A conceptual model that characterizes and standardizes the communication functions of a telecommunication or computing system without regard to its underlying internal structure and technology.
+P (Polynomial time),The complexity class containing all decision problems that can be solved by a deterministic Turing machine using a polynomial amount of computation time.
+Paging,A memory management scheme by which a computer stores and retrieves data from secondary storage for use in main memory.
+Polymorphism,The provision of a single interface to entities of different types or the use of a single symbol to represent multiple different types.
+Private Key,A variable that is used with an algorithm to encrypt and decrypt code.
+Procedural Programming,"A programming paradigm, derived from structured programming, based on the concept of the procedure call."
+Public Key,A cryptographic key that can be obtained and used by anyone to encrypt messages intended for a particular recipient.
+Queue,A collection of entities that are maintained in a sequence and can be modified by the addition of entities at one end of the sequence and the removal of entities from the other end of the sequence.
+Quick Sort,"An efficient, general-purpose, comparison-based sorting algorithm."
+Race Condition,"An undesirable situation that occurs when a device or system attempts to perform two or more operations at the same time, but because of the nature of the device or system, the operations must be done in the proper sequence to be done correctly."
+RAM (Random Access Memory),"A form of computer memory that can be read and changed in any order, typically used to store working data and machine code."
+Recursion,A method of solving a problem where the solution depends on solutions to smaller instances of the same problem.
+RISC (Reduced Instruction Set Computer),A computer instruction set architecture that allows a computer's microprocessor to have fewer cycles per instruction (CPI) than a complex instruction set computer (CISC).
+RSA (Rivest–Shamir–Adleman),A public-key cryptosystem that is widely used for secure data transmission.
+SDLC (Software Development Life Cycle),"A process for planning, creating, testing, and deploying an information system."
+Singleton Pattern,"A software design pattern that restricts the instantiation of a class to one ""single"" instance."
+SQL (Structured Query Language),A domain-specific language used in programming and designed for managing data held in a relational database management system.
+Stack,"An abstract data type that serves as a collection of elements, with two main principal operations: Push, which adds an element to the collection, and Pop, which removes the most recently added element that was not yet removed."
+TCP (Transmission Control Protocol),"One of the main protocols of the Internet protocol suite. It provides reliable, ordered, and error-checked delivery of a stream of octets."
+Thread,The smallest sequence of programmed instructions that can be managed independently by a scheduler.
+Tree,"A widely used abstract data type that simulates a hierarchical tree structure, with a root value and subtrees of children with a parent node."
+Turing Machine,A mathematical model of computation that defines an abstract machine that manipulates symbols on a strip of tape according to a table of rules.
+UDP (User Datagram Protocol),A communications protocol that is primarily used for establishing low-latency and loss-tolerating connections between applications on the internet.
+Unicode,"An information technology standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems."
+Virtual Memory,A memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine.
+Von Neumann Architecture,A computer architecture based on a 1945 description by John von Neumann.
+Worst-case Complexity,The upper bound on the resources required by the algorithm.
